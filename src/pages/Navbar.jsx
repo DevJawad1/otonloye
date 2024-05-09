@@ -18,7 +18,7 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav gap-5">
+            <ul class="navbar-nav gap-lg-5">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>

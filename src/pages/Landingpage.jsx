@@ -69,9 +69,9 @@ const Landingpage = () => {
                     <div className="mission shadow p-2 pt-4">
                         <p className='fs-1 title'>Our Mission</p>
                         <ul className='w-75'>
-                            <li className='mt-2'>To foster a common understanding for peace and unity amongst Itsekiris and between them and their neighbours,</li>
-                            <li className='mt-2'> To uphold those Itsekiri traditions and customs considered good and progressive in a bid to meet the test of time,</li>
-                            <li className='mt-2'>To contribute to the educational economic and socio-economic development of our people, particularly in the Riverine Areas.</li>
+                            <li className='mt-4'>To foster a common understanding for peace and unity amongst Itsekiris and between them and their neighbours,</li>
+                            <li className='mt-4'> To uphold those Itsekiri traditions and customs considered good and progressive in a bid to meet the test of time,</li>
+                            <li className='mt-4'>To contribute to the educational economic and socio-economic development of our people, particularly in the Riverine Areas.</li>
                         </ul>
                     </div>
                 </div>
