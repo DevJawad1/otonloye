@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg bg-body-tertiar w-100 borderbottom border-black">
     <div class="container-fluid gap-5">
         <div className="d-flex" style={{alignItems:"center"}}>
-        <a class="navbar-brand sm" href="#">
+        <a class="navbar-brand " href="#">
             <img src={logo} alt="" className='logo'/>
         </a>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand sm" href="#">
             Warri Progressive Society UK
         </a>
         </div>

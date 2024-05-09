@@ -84,7 +84,7 @@ const Landingpage = () => {
                         <table class="table table-stripe">
                             <thead>
                                 <tr>
-                                    <th scope="col" className=''>#</th>
+                                    {/* <th scope="col" className=''>#</th> */}
                                     <th scope="col" className=''>Date</th>
                                     <th scope="col" className=''>Time</th>
                                     <th scope="col" className=''>Events</th>
@@ -92,19 +92,19 @@ const Landingpage = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    {/* <th scope="row">1</th> */}
                                     <td>JUN 1</td>
                                     <td>6.00PM - 9.00PM</td>
                                     <td>Monthly Meeting</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
+                                    {/* <th scope="row">2</th> */}
                                     <td>JUN 1</td>
                                     <td>6.00PM - 9.00PM</td>
                                     <td>Monthly Meeting</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
+                                    {/* <th scope="row">3</th> */}
                                     <td>JUN 1</td>
                                     <td>6.00PM - 9.00PM</td>
                                     <td>Monthly Meeting</td>

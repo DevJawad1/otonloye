@@ -45,8 +45,8 @@
 }
 .section-four{
     background-color: rgb(238,238,238);
-    height: 60vh;
-    padding-top: 40px !important;
+    /* height: 60vh;
+    padding-top: 40px !important; */
 }
 @media (max-width:600px) {
     .sm{
@@ -84,7 +84,7 @@
         width: auto;
     }
     .section-four{
-        height: 67vh;
+        /* height: 67vh; */
     }
     .section-four .w-50 .table tr{
         height: 60px;
@@ -92,5 +92,8 @@
     .section-four .w-50 .table tr td, .section-four .w-50 .table tr th{
         padding-top: 20px;
         text-align: center;
+    }
+    .section-one .cover .content .name{
+        font-size: 30px;
     }
 }
