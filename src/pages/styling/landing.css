@@ -100,13 +100,13 @@
     .section-four{
         /* height: 67vh; */
     }
-    .section-four .w-100 .table tr{
+    .section-four .table tr{
         height: 60px;
     }
-    .section-four .w-100 .table tr td, .section-four .w-100 .table tr th{
+    .section-four .table tr td, .section-four .table tr th{
         padding-top: 20px;
         text-align: center;
-        font-size: 15px ;
+        font-size: 13px ;
     }
     .section-one .cover .content .name{
         font-size: 30px;

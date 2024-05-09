@@ -7,6 +7,8 @@ import logo from '../assets/kinglogo-removebg-preview.png'
 import img1 from '../assets/manlining.jpg'
 import img2 from '../assets/assembly.jpg'
 import img3 from '../assets/womanlaf.jpg'
+import congrat from '../assets/congrat.jpg'
+import notice from '../assets/notice.jpg'
 const Landingpage = () => {
     return (
         <div>
@@ -78,8 +80,21 @@ const Landingpage = () => {
             </div>
 
             <div className="section-four p-3 mt-5">
-                <div className="d-md-flex gap-5">
-                    <div className="w-100 ">
+                <div className="d-flex gap-2 ">
+                <div className="w-100 latest-news p-2" style={{lineHeight:"1.5", borderRight:"1px solid"}}>
+                        <p className="title fs-3">Latest News</p>
+                        <div className='d-md-flex'>
+                            <div>
+                                <p>New Elected Congratulation</p>
+                                <img src={congrat} alt=""  className='w-75 h-75'/>
+                            </div>
+                            <div>
+                                <p>Election Conducted</p>
+                                <img src={notice} alt=""  className='w-75 h-75'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-50 ">
                         <p className="title fs-3">Upcoming Events</p>
                         <table class="table table-stripe">
                             <thead>
@@ -111,16 +126,7 @@ const Landingpage = () => {
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div className="w-100 border p-2 border-secondary" style={{lineHeight:"1.5"}}>
-                        <p className="title fs-3">Latest News</p>
-                        <div>
-                            <p className='text-primary'>Otonloye UK Branch 2023 Christmas Party</p>
-                            <p className='text-primary'>Celebrating the Life of Mrs Roli Inoniyegha: <br /> A Pillar of the UK Itsekiri Community</p>
-                            <p className='text-primary'>September 2023 Monthly Meeting</p>
-                            <p className='text-primary'>August 2023 Monthly Meeting</p>
-                            <p className='text-primary'>Otonloye UK hosts 2022 award ceremony</p>
-                        </div>
+                        <p className='border-bottom text-primary border-primary'>View all Events</p>
                     </div>
                 </div>
             </div>
