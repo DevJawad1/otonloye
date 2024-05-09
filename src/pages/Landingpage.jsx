@@ -53,7 +53,7 @@ const Landingpage = () => {
                         <div className='text-center h-100' >
                             <img src={logo} alt="" className='logo' />
                         </div>
-                        <div className='p-1 pt-3 w-75 content mx-auto h-75 px-2' >
+                        <div className='p-1 pt-3 w-75 content mx-auto h-75 px-2'>
                             <p className=''>OTOLOYE, UNITED KINGDOM IS THE REGISTERED AND THE ONLY ACKNOWLEDGED UK branch of the WARRI PROGRESSIVE SOCIETY (OTONLOYE) with registered office at OTONLOYE HALL, Warri, having firmly and solemnly resolved to come together in PEACE and UNTTY as one indivisible sovereign people of His Majesty, OG1AME, THE OLU OF WARRI under GOD'S guidance, dedicated to the promotion of our Culture, Social and Economic harmony with understanding and Co-operation in IWERELAND.  We provide for ourselves, byelaws in tandem with the 2018 CONSTITUTION (As Reviewed) for the purpose of enhancing good governance and welfare of all registered and financial members of the Society, based on principles of freedom, equality and Justice to all members.  All Iwere sons and daughters based in the UK are welcome to join us.</p>
                         </div>
                     </div>

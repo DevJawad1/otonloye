@@ -106,6 +106,8 @@
     .section-two .d-md-flex .content{
         width: 95vw !important;
         text-align: center;
+        font-size: 14px;
+        line-height: 1.8;
     }
     .section-three .mission{
         width: 93vw;
@@ -148,5 +150,8 @@
     }
     .section-four .conducted{
         margin-top: 40px;
+    }
+    .section-four .latest-news{
+        border-right: none !important;
     }
 }
