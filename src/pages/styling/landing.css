@@ -146,4 +146,7 @@
         width: 95vw !important;
         height: 70vh !important;
     }
+    .section-four .conducted{
+        margin-top: 40px;
+    }
 }

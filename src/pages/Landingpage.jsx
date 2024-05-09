@@ -99,9 +99,12 @@ const Landingpage = () => {
                     <div className="w-100 latest-news p-2" style={{ lineHeight: "1.5", borderRight: "1px solid" }}>
                         <p className="title fs-3">Latest News</p>
                         <div className='d-md-flex gap-0'>
-                            <div>
-                                <p>New Elected Congratulation</p>
-                                <div className="text-end w-75">
+                            <div style={{lineHeight:"1"}}>
+                                <div className="d-flex gap-1">
+                                    <p>1.</p>
+                                    <p>New Elected Congratulation</p>
+                                </div>
+                                <div className="text-md-end w-75">
                                     <p className='text-decoration-underline text-primary' onClick={()=>{enlargImage('one')}}>View Image</p>
                                 </div>
                                 <div className="cvimg text-center">
@@ -113,9 +116,12 @@ const Landingpage = () => {
                                     </div>
                                 </div>
                             </div> 
-                            <div>
-                                <p>Election Conducted</p>
-                                <div className="text-end w-75">
+                            <div style={{lineHeight:"1"}} className='conducted'>
+                                <div className="d-flex gap-1">
+                                    <p>2.</p>
+                                    <p>Election Conducted</p>
+                                </div>
+                                <div className="text-md-end w-75">
                                     <p className='text-decoration-underline text-primary' onClick={()=>{enlargImage('two')}}>View Image</p>
                                 </div>
                                 <div className="cvimgtwo text-center">
