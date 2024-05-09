@@ -10,6 +10,21 @@ import img3 from '../assets/womanlaf.jpg'
 import congrat from '../assets/congrat.jpg'
 import notice from '../assets/notice.jpg'
 const Landingpage = () => {
+    const enlargImage=(i)=>{
+        if(i=="one"){
+            document.querySelector('.cvimg').classList.add('cover-img')
+        }
+        else{
+            document.querySelector('.cvimgtwo').classList.add('cover-img')
+        }
+    }
+    const closeImage=(i)=>{
+        if(i=="one"){
+            document.querySelector('.cvimg').classList.remove('cover-img')
+        }else{
+            document.querySelector('.cvimgtwo').classList.remove('cover-img')
+        }
+    }
     return (
         <div>
             <div className="section-one" id='home'>
@@ -81,16 +96,37 @@ const Landingpage = () => {
 
             <div className="section-four p-3 mt-5">
                 <div className="d-flex gap-2 ">
-                <div className="w-100 latest-news p-2" style={{lineHeight:"1.5", borderRight:"1px solid"}}>
+                    <div className="w-100 latest-news p-2" style={{ lineHeight: "1.5", borderRight: "1px solid" }}>
                         <p className="title fs-3">Latest News</p>
-                        <div className='d-md-flex'>
+                        <div className='d-md-flex gap-0'>
                             <div>
                                 <p>New Elected Congratulation</p>
-                                <img src={congrat} alt=""  className='w-75 h-75'/>
-                            </div>
+                                <div className="text-end w-75">
+                                    <p className='text-decoration-underline text-primary' onClick={()=>{enlargImage('one')}}>View Image</p>
+                                </div>
+                                <div className="cvimg text-center">
+                                    <div className="w-md-50 mx-auto ">
+                                        <button className='border-0 btn btn-dark fs-3 pt-0 d-none' onClick={()=>{closeImage('one')}}>x</button>
+                                    </div>
+                                    <div>
+                                    <img src={congrat} alt="" className='w-75 h-7 cert-one enlarge'/>
+                                    </div>
+                                </div>
+                            </div> 
                             <div>
                                 <p>Election Conducted</p>
-                                <img src={notice} alt=""  className='w-75 h-75'/>
+                                <div className="text-end w-75">
+                                    <p className='text-decoration-underline text-primary' onClick={()=>{enlargImage('two')}}>View Image</p>
+                                </div>
+                                <div className="cvimgtwo text-center">
+                                <div className="w-md-50 mx-auto ">
+                                        <button className='border-0 btn btn-dark fs-3 pt-0 d-none' onClick={()=>{closeImage('two')}}>x</button>
+                                    </div>
+                                    <div>
+                                    <img src={notice} alt="" className='w-75 h-75 cert-two enlarge' />
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
